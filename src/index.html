@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise Microverse</title>
+    <title>Wbpack Exercise</title>
+    <script src="https://kit.fontawesome.com/e1cc58c746.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <div class="to_do_box">
+        <div class="heading_wrapper">
+            <h2 class="heading">Today's To Do</h2>
+            <i class="fas fa-sync"></i>
+        </div>
+        <form class="add_wrapper">
+            <input type="text" class="toDo_txt" placeholder="Add to your list...">
+            <button class="todo-button" type="submit">
+                <i class="fas fa-plus"></i>
+            </button>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list">
+                <div class="todo">
+                    <input type="checkbox" aria-selected="false" class="list" name="taskCompleted"> 
+                    <h4 class="todo_txt">wash the dishes</h4>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </ul>
+        </div>
+        <button type="submit" class="addtodo-button">Clear all completed</button>
+    </div>
 </body>
 </html>
 
