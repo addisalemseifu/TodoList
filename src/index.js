@@ -1,4 +1,4 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
 // import Icon from './icon.png';
 // import Data from './data.xml';
@@ -31,9 +31,6 @@ function addTodo() {
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
     todoList.appendChild(todoDiv);
-    // const listOne = document.createElement("input");
-    // listOne.classList.add("list");
-    // npx eslint .
     const newTodo = document.createElement('h4');
     newTodo.classList.add('todo_txt');
     newTodo.innerText = tasks[i].description;

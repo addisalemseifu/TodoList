@@ -15,7 +15,6 @@ body {
 }
 
 .to_do_box {
-  /* height: 50%; */
   width: 50%;
   display: flex;
   flex-direction: column;
